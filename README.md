@@ -25,51 +25,51 @@ This file contains the following sections:
 
 Root folder contains 2 folders and 1 file.
 
-**FOLDERS**
+	**FOLDERS**
 
-**\evaluation**		This folder contains required artifacts to reproduce experiment results
+	**\evaluation**		This folder contains required artifacts to reproduce experiment results
 
-	\IT	This folder contains required artifacts to reproduce Industrial Tanks case study.
-	
-		\fun	This folder contains functions for evaluation
-		
-		\in	This folder contains input files for evaluation
-		
-		\stage	This folder contains intermediate files for evaluation
-		
-		README_IT.md	This file contains detailled instructions to proceed with Dynamic algorithm
-		
-		*.m files to run the experiment.
-		
-	\CW	This folder contains required artifacts to reproduce Industrial Tanks case study.
-	
-		same structure as IT evaluation folder
-			
-**\case_studies**	This folder contains case studies artifacts
+		\IT	This folder contains required artifacts to reproduce Industrial Tanks case study.
 
-	\IT	This folder contains relevant artifacts of Industrial Tanks case study.
-	
-		\01.product_configs	This folder contains product configuration files
-		
-		\02.model150		This folder contains the 150% model of the case study
-		
-		\03.product_models     	This folder contains one model file per product configuration
-		
-		\04.harness150      	This folder contains the 150% model which includes 150 generic test cases
-		
-		\05.harness             This folder contains product models with adapted test harness.
-		
-		\06.mutants		This folder contains product models with adapted test harness and mutants.
-		
-	\CW	This folder contains relevant artifacts of Car Windows case study.
-	
-		same structure as IT case study folder				
+			\fun	This folder contains functions for evaluation
 
-**FILES**
+			\in	This folder contains input files for evaluation
 
-README.md			   The file you are reading with general info about project.
+			\stage	This folder contains intermediate files for evaluation
 
-License.md				 This file describes license of the project. 
+			README_IT.md	This file contains detailled instructions to proceed with Dynamic algorithm
+
+			*.m files to run the experiment.
+
+		\CW	This folder contains required artifacts to reproduce Industrial Tanks case study.
+
+			same structure as IT evaluation folder
+
+	**\case_studies**	This folder contains case studies artifacts
+
+		\IT	This folder contains relevant artifacts of Industrial Tanks case study.
+
+			\01.product_configs	This folder contains product configuration files
+
+			\02.model150		This folder contains the 150% model of the case study
+
+			\03.product_models     	This folder contains one model file per product configuration
+
+			\04.harness150      	This folder contains the 150% model which includes 150 generic test cases
+
+			\05.harness             This folder contains product models with adapted test harness.
+
+			\06.mutants		This folder contains product models with adapted test harness and mutants.
+
+		\CW	This folder contains relevant artifacts of Car Windows case study.
+
+			same structure as IT case study folder				
+
+	**FILES**
+
+	README.md			   The file you are reading with general info about project.
+
+	License.md				 This file describes license of the project. 
 
 #### 2 - Software requirements
 
